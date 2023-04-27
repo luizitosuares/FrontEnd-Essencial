@@ -1,0 +1,64 @@
+
+body{
+    margin: 0;
+}
+
+.container{
+
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+    margin: 0;
+   position: relative;
+}
+
+    .quadrado{
+
+
+        height: 95px;
+        width: 95px;
+        background-color: black;
+    }
+
+    .quadrado2{
+
+        height: 95px;
+        width: 95px;
+        background-color:darkorange;
+        position:absolute;
+        top: 0;
+        right: 0;
+}
+
+.quadrado3{
+
+
+    height: 95px;
+    width: 95px;
+    background-color:chartreuse;
+    position:absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+.quadrado4{
+
+    height: 95px;
+    width: 95px;
+    background-color:brown;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.quadrado5{
+
+    height: 95px;
+    width: 95px;
+    background-color:darkmagenta;
+    position:absolute;
+    top: 50%;
+    right: 50%;
+
+}
