@@ -1,68 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body {
+  margin: 0;
+}
+
+
+
 .info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 10px;
-    padding-left: 40px;
-  }
-  
-  .info img {
-    display:block;
-    margin: 70px;
-    width: 70%;
-    height: auto;
-    border-radius: 50%;
-    margin-bottom: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding-left: 40px;
+}
+
+.info img {
+  display: block;
+  margin: 70px;
+  width: 70%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 90px;
+
+}
+
+.info h1 {
+  margin-bottom: 20px;
+  font-size: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+.info h2 {
+  margin-bottom: -20px;
+  flex-grow: 1;
+  font-size: 35px;
+  text-align: center;
+}
+
+.info h3 {
+  margin-right: 100px;
+  text-align: left;
+  font-size: 30px;
+  width: 50%;
+}
+
+
+.info h4 {
+
+  margin-right: 100px;
+  text-align: left;
+  font-size: 25px;
+  width: 50%;
+}
+
+
+.resumo h2 {
+  font-size: 35px;
+}
+
+.resumo h3 {
+  font-family: Raleway;
+
+}
+
+.formação h2 {
+
+  font-size: 35px;
+}
+
+.container h2 {
+
+  font-size: 35px;
+}
+
+.container {
+
+  height: auto;
+  width: auto;
+  margin: 0;
+  left: 0;
+  position: relative;
+  text-align: center;
+}
+
+
+.container .alinhaimagem {
+
+  position: absolute;
+  top: 0;
+  margin-top: 110px;
+  margin-left: 500px;
   
 }
-  
-  .info h1 {
-    margin-bottom: 20px;
-    font-size: 40px;
-    text-align: center;
-    width: 100%;
-  }
-  
-  .info h2 {
-    margin-bottom: -20px;
-    flex-grow: 1;
-    font-size: 35px;
-    text-align: center;
-  }
-  
-  .info h3 {
-    margin-right: 100px;
-    text-align: left;
-    font-size: 30px;
-    width: 50%;
-  }
-  
-  
-  .info h4{
 
-    margin-right: 100px;
-    text-align: left;
-    font-size: 25px;
-    width: 50%;
+.alinhaimagem h5 {
+
+  font-size: 30px;
+}
+
+.container h4 {
+  font-size: 30px;
+  text-align: left;
+}
+
+
+
+
+
+.resumo h2 {
+
+  text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.formação h2{
+
+  text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.formação h3{
+ font-family:Raleway;
+ text-align: center;
+}
+
+
+  ul {
+    list-style-type: disc;
   }
-  
-  
-  .resumo h2 {
-    font-size: 35px;
-  }
-
-  .resumo h3{
-    font-family: Raleway;
-
-  }
-
-  .formação h2{
-
-    font-size: 35px;
-  }
-
- .container h2{
-
-    font-size: 35px;
- }
