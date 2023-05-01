@@ -1,0 +1,133 @@
+body{
+
+    margin: 0;
+padding: 0;
+}
+
+
+.container{
+
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(100, 183, 194);
+    position: relative;
+}
+
+header{
+
+    background-color: rgba(8, 160, 16, 0.295);
+    color: #fff;
+    padding: 30px;
+
+
+}
+
+
+
+.foto{
+
+    height: 70%;
+    width: 45%;
+    background-image: url(https://www.petz.com.br/blog/wp-content/uploads/2019/08/suculentas.jpg);
+    border-radius: 5%;
+    position: absolute;
+    margin-left: 725px;
+    margin-top: 65px;
+
+}   
+
+
+.texto{
+
+    position: absolute;
+    height: 280px;
+    width: 40%;
+    background-color: rgb(235, 222, 222);
+    margin-left: 33px;
+
+    margin-top: 245px;
+}
+
+
+.texto h1{
+    font-size: 50px;
+}
+.texto ul{
+
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.texto p{
+
+    font-size: 20px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.texto button{
+
+
+    display: inline-block;
+  padding: .75rem 1.25rem;
+  border-radius: 10rem;
+  color: #0f8815;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: .15rem;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.logo{
+
+position: absolute;
+height: 30%;
+width: 25%;
+background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p3/5170961-resumo-verde-folha-ou-arvore-logo-design-isolado-em-fundo-branco-natureza-eco-planta-icone-simbolo-para-ecologicamente-correto-gratis-vetor.jpg);
+margin-left: 125px;
+background-size: cover;
+}
+
+#container2{
+
+    height: 100vh;
+    width: 100%;
+
+}
+
+.all produtos{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.produto{
+
+    overflow: hidden;
+    background: #ffffff;
+    color: #21201e;
+    text-align: center;
+    width: 240px;
+    height: 340px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.2rem;
+    margin: 2rem;
+}
+
+produto:houver img{
+scale: 1.1;
+
+}
+
+produto:houver{
+
+    box-shadow: 5px 15px 25px #eeeeee;
+}
